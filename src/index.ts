@@ -51,9 +51,14 @@ export default function diffBy<T, Y>(
         }
       } else {
         /* unchanged element */
-        return {
-          ...acc,
-          unchanged: [...acc.unchanged, el],
+        if (!acc.unchanged.find(equalsWith(fn)(el))) {
+          /* prevent duplicates */
+          return {
+            ...acc,
+            unchanged: [...acc.unchanged, el],
+          }
+        } else {
+          return acc
         }
       }
     },

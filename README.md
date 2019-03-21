@@ -26,11 +26,6 @@ const oldDefinitions = [
     name: 'georgio',
     language: 'javascript',
   },
-  {
-    id: 4,
-    name: 'stella',
-    language: 'python',
-  },
 ]
 
 const newDefinitions = [
@@ -46,8 +41,8 @@ const newDefinitions = [
   },
   {
     id: 4,
-    name: 'kayle',
-    language: 'c',
+    name: 'stella',
+    language: 'python',
   },
 ]
 
@@ -55,8 +50,8 @@ expect(diffBy(fn, oldDefinitions, newDefinitions)).toEqual({
   created: [
     {
       id: 4,
-      name: 'kayle',
-      language: 'c',
+      name: 'stella',
+      language: 'python',
     },
   ],
   updated: [

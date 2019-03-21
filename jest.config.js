@@ -14,7 +14,6 @@ module.exports = {
     '!**/vendor/**',
     '!**/generated/**',
   ],
-  snapshotSerializers: ['jest-serializer-ansi'],
   verbose: true,
   coverageDirectory: './coverage',
   coverageReporters: ['json', 'lcov', 'text', 'clover', 'html'],
