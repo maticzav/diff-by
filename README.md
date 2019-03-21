@@ -2,6 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/maticzav/diff-by.svg?style=shield)](https://circleci.com/gh/maticzav/diff-by)
 [![npm version](https://badge.fury.io/js/diff-by.svg)](https://badge.fury.io/js/diff-by)
+[![codecov](https://codecov.io/gh/maticzav/diff-by/branch/master/graph/badge.svg)](https://codecov.io/gh/maticzav/diff-by)
 
 > Calculate changes in the array of objects.
 
