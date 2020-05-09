@@ -25,7 +25,7 @@
     "prettier": "1.19.1",
     "pretty-quick": "1.11.1",
     "semantic-release": "15.14.0",
-    "ts-jest": "24.3.0",
+    "ts-jest": "25.5.1",
     "ts-node": "8.10.1",
     "typescript": "3.8.3"
   },
